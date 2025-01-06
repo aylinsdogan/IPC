@@ -101,7 +101,7 @@ int main(int argc, char **argv){
 
 void signalHandler(int signal)
 {
-	if (signal == SIGINT){ // CTRL+C
+	if (signal == SIGINT){ 
 		if(ptr->count > 0){
 			ptr->count--;
 		}
